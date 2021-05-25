@@ -1,0 +1,121 @@
+body{
+	width: 1920px;
+	height: 1080px;
+	background: #F1F1F1 0% 0% no-repeat padding-box;
+}
+.linha{
+	margin: 0 auto;
+	overflow: auto;
+	width: 980px;
+}
+.coluna{
+	float: left;
+}
+.col1{
+	width: 80px;
+}
+.col2{
+	width: 160px;
+}
+.col3{
+	width: 240px;
+}
+.col4{
+	width: 320px;
+}
+.col5{
+	width: 425px;
+}
+.col6{
+	width: 480px;
+}
+.col7{
+	width: 542px;
+}
+.col8{
+	width: 640px;
+}
+.col9{
+	width: 720px;
+}
+.col10{
+	width: 800px;
+}
+.col11{
+	width: 880px;
+}
+.col12{
+	width: 960px;
+}
+.top{
+	margin-top: 303px;
+}
+.um{
+	height: 424px;
+	background: #82008F 0% 0% no-repeat padding-box;
+	border: 1px solid #863176;
+}
+.dois{
+	height: 424px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 1px solid #863176;
+}
+.conhecimento{
+	padding-top: 89px;
+	padding-left: 97px;
+}
+.universidade{
+	padding-top: 43px;
+	padding-left: 145px;
+}
+.email{
+	margin-left: 65px;
+	margin-top: 30px;
+	width: 307px;
+	height: 42px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 1px solid #82008F;
+}
+.senha{
+	display:block;
+	margin-left: 65px;
+	margin-top: 30px;
+	width: 307px;
+	height: 42px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 1px solid #82008F;
+}
+.botao{
+	margin-left: 63px;
+	margin-top: 30px;
+	width: 99px;
+	height: 42px;
+	background: #863176 0% 0% no-repeat padding-box;
+	border: 1px solid #82008F;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+.link{
+	text-decoration: none;
+	margin-left: 65px;
+	text-align: left;
+	font: normal normal normal 14px/60px DIN Pro;
+	letter-spacing: 0px;
+	color: #4A4A4A;
+}
+.footer{
+	margin-top: 300px;
+	margin-left: 379px;
+}
+p{
+	text-align: left;
+	font: normal normal 300 12px/15px DIN Pro;
+	letter-spacing: 0px;
+	color: #4A4A4A;
+	text-transform: uppercase;
+	opacity: 0.8;
+}
+.link2{
+	text-decoration: none;
+	color: black;
+}
