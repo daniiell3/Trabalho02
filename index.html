@@ -1,44 +1,34 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Treino - Trabalho</title>
-	<meta charset="utf-8" />
-	<link rel="stylesheet" type="text/css" href="main.css" />
-</head>
-<body>
-	<div class="linha">
-		<div class="top">
-			<div class="coluna col7">
-				<div class="um">
-					<img src="img/conhecimento.png" alt="conhecimento" class="conhecimento" />
+<html lang="pt-BR">
+	<head>
+		<title>Treino - Trabalho</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" type="text/css" href="main.css" />
+	</head>
+	<body>
+		<main>
+			<div class="login">
+				<div class="login__wrapper">
+					<div class="login__box login__box--logo">
+						<img src="img/conhecimento.png" alt="conhecimento" />
+					</div>
+					<div class="login__box login__box--form">
+						<form class="login__form" action="#">
+							<img class="login__form__image" src=img/universidade.png alt="universidade" />
+							<input class="login__form__input" type="text" placeholder="LOGIN" name="username" />
+							<input class="login__form__input" type="password" placeholder="SENHA" name="password" />
+							<div class="login__form__inputs">
+								<input class="login__form__input-submit" type="submit" value="ENVIAR">
+								<a class="login__form__input-password" href="#">Esqueceu a senha?</a>
+							</div>
+						</form>
+					</div>
 				</div>
 			</div>
-			<div class="coluna col5">
-				<div class="dois">
-					<img src=img/universidade.png alt="universidade" class="universidade" />
-					<input type="text" class="email" placeholder="LOGIN" />
-					<input type="text" class="senha" placeholder="SENHA" />
-					<button class="botao" onmouseover="funcao(this)" onmouseout="funcao2(this)" id="funcao"><a href="raizeh.html" title="Enviar" class="link2">ENVIAR</a></button><a href="#" title="" class="link">Esqueceu a senha?</a>
-				</div>
-			</div>
-		</div>	
-    </div>
-    <footer>
-    	<div class="linha">
-    		<div class="coluna col12">
-    			<div class="footer">
-    				<p><span>2020 © Todos os direitos reservados - teya.us</span></p>
-    			</div>
-    		</div>
-    	</div>
-    </footer>
-</body>
-<script type="text/javascript">
-	function funcao(){
-		document.getElementById('funcao').style.background = "white";
-	};
-	function funcao2(){
-		document.getElementById('funcao').style.background = "#863176";
-	};
-</script>
+		</main>
+		<footer class="footer">
+			<p class="footer__paragraph">2020 © Todos os direitos reservados - teya.us</p>
+		</footer>
+	</body>
 </html>
